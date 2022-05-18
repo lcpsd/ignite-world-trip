@@ -3,13 +3,13 @@ import { Box, Flex, Img, Text } from "@chakra-ui/react";
 interface BannerProps{
     bgImgUrl: string;
     title: string;
-    subTitle: string;
-    imageUrl: string;
+    subTitle?: string;
+    imageUrl?: string;
 }
 
 export function Banner({bgImgUrl, title, subTitle, imageUrl}: BannerProps){
     return(
-        <Flex h="335" w="100%" align="center" justify="center" bgImage={bgImgUrl} bgSize="cover" p="10">
+        <Flex h="335" w="100%" align="center" justify="center" bgImage={bgImgUrl} bgSize="cover" p="10" bgPosition="center">
 
             <Flex w="100%" width="1120px">
                 <Flex height="335">
