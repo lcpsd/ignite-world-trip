@@ -42,7 +42,7 @@ const Home: NextPage = () => {
       />
 
       <Flex flex="1" bg="black" align="center" justify="center" p="8" direction="column">
-        <SimpleGrid w="100%" maxW="1116px" minChildWidth="158px" gap="4" h="200px" mt="20">
+        <SimpleGrid w="100%" maxW="1116px" minChildWidth="158px" gap="4" h="100%" mt="20">
           <TravelType iconElement={FaCocktail} text="Vida Noturna"/>
           <TravelType iconElement={FaUmbrellaBeach} text="Praia"/>
           <TravelType iconElement={FaBuilding} text="Moderno"/>
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
             Vamos nessa?
           </Text>
 
-          <Text fontSize="35">
+          <Text fontSize="35" textAlign={["center", "left"]}>
             Então escolha seu continente
           </Text>
         </Flex>
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
               <SwiperSlide>
                 <Flex
                   w="100%"
-                  h="450px"
+                  h="100%"
                   align="center"
                   justify="center"
                   direction="column"

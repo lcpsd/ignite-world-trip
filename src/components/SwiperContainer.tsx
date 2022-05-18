@@ -18,6 +18,8 @@ export function SwiperContainer({children}: SwiperSlideProps){
         style={{
           width: "100%",
           maxWidth:"1120px",
+          height: "100%",
+          minHeight: "500px",
           borderRadius:"0.3rem",
           margin:"2rem 0"
         }}
